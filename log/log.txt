@@ -1,0 +1,742 @@
+[2021-08-03 11:29:20] INFO [<module>: config.py, 10] hellow
+[2021-08-03 11:39:30] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-03 11:39:30] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-03 11:39:30] INFO [test_create_Group_duplication: test_create_group.py, 90] 测试用例：test_create_Group_duplication
+[2021-08-03 11:39:30] INFO [test_create_Group_duplication: test_create_group.py, 91] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-03 11:39:30] INFO [test_create_Group_duplication: test_create_group.py, 92] 请求参数：{
+            "idApiGroup": "",
+            "name": "a1234",
+            "description": "123",
+            "autoRecord": false,
+            "defaultGroup": false,
+            "preUrl": "",
+            "address": "[]",
+            "serviceRes": null,
+            "backendDetail": "{\"protocol\":\"\"}",
+            "implMethod": "restful",
+            "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+            "cover": false
+        }
+[2021-08-03 11:39:30] INFO [test_create_Group_duplication: test_create_group.py, 93] 期望结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-03 11:39:30] INFO [test_create_Group_duplication: test_create_group.py, 94] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-03 11:39:30] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-03 11:39:30] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 581
+[2021-08-03 11:39:30] INFO [test_create_Group_ture: test_create_group.py, 73] 测试用例：test_create_Group_ture
+[2021-08-03 11:39:30] INFO [test_create_Group_ture: test_create_group.py, 74] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-03 11:39:30] INFO [test_create_Group_ture: test_create_group.py, 75] 请求参数：{
+                "idApiGroup": "",
+                "name": "python",
+                "description": "123",
+                "autoRecord": false,
+                "defaultGroup": false,
+                "preUrl": "",
+                "address": "[]",
+                "serviceRes": null,
+                "backendDetail": "{\"protocol\":\"\"}",
+                "implMethod": "restful",
+                "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+                "cover": false
+    }
+[2021-08-03 11:39:30] INFO [test_create_Group_ture: test_create_group.py, 76] 期望结果：{"status":"success","message":null,"data":{"operator":"f45cb0fa-7991-41aa-8d38-735182900e9d","tenantId":"d13e78ea-5d3d-4a5f-9eaf-6844ebfee0e5","code":null,"name":"python","description":"123","address":"[]","hystrixconfig":"{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}","implmethod":"restful","serviceres":null,"backenddetail":"{\"protocol\":\"\"}","autorecord":false,"preurl":"","discard":false,"owner":"f45cb0fa-7991-41aa-8d38-735182900e9d","defaultgroup":false,"openUpdatedAt":null}}
+[2021-08-03 11:39:30] INFO [test_create_Group_ture: test_create_group.py, 77] 实际结果：{"status":"success","message":null,"data":{"operator":"f45cb0fa-7991-41aa-8d38-735182900e9d","tenantId":"d13e78ea-5d3d-4a5f-9eaf-6844ebfee0e5","code":null,"name":"python","description":"123","address":"[]","hystrixconfig":"{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}","implmethod":"restful","serviceres":null,"backenddetail":"{\"protocol\":\"\"}","autorecord":false,"preurl":"","discard":false,"owner":"f45cb0fa-7991-41aa-8d38-735182900e9d","defaultgroup":false,"openUpdatedAt":null}}
+[2021-08-03 14:22:38] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-03 14:22:38] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-03 14:22:38] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-03 14:22:38] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-03 14:25:05] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-03 14:25:05] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-03 14:25:05] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-03 14:25:05] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 581
+[2021-08-03 14:30:43] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-03 14:30:43] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-03 14:30:43] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-03 14:30:43] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-03 14:32:48] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-03 14:32:48] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-03 14:32:48] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-03 14:32:48] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-03 14:33:26] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-03 14:33:26] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-03 14:33:26] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-03 14:33:26] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-03 14:35:25] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-03 14:35:26] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-03 14:35:26] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-03 14:35:28] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-03 14:39:56] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-03 14:39:56] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-03 14:39:56] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_duplication
+[2021-08-03 14:39:56] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-03 14:39:56] INFO [log_case_info: case_log.py, 9] 请求参数：{
+            "idApiGroup": "",
+            "name": "a1234",
+            "description": "123",
+            "autoRecord": false,
+            "defaultGroup": false,
+            "preUrl": "",
+            "address": "[]",
+            "serviceRes": null,
+            "backendDetail": "{\"protocol\":\"\"}",
+            "implMethod": "restful",
+            "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+            "cover": false
+        }
+[2021-08-03 14:39:56] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-03 14:39:56] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-03 14:39:56] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-03 14:39:56] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-03 14:39:56] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_ture
+[2021-08-03 14:39:56] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-03 14:39:56] INFO [log_case_info: case_log.py, 9] 请求参数：{
+                "idApiGroup": "",
+                "name": "python",
+                "description": "123",
+                "autoRecord": false,
+                "defaultGroup": false,
+                "preUrl": "",
+                "address": "[]",
+                "serviceRes": null,
+                "backendDetail": "{\"protocol\":\"\"}",
+                "implMethod": "restful",
+                "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+                "cover": false
+    }
+[2021-08-03 14:39:56] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"success","message":null,"data":{"operator":"f45cb0fa-7991-41aa-8d38-735182900e9d","tenantId":"d13e78ea-5d3d-4a5f-9eaf-6844ebfee0e5","code":null,"name":"python","description":"123","address":"[]","hystrixconfig":"{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}","implmethod":"restful","serviceres":null,"backenddetail":"{\"protocol\":\"\"}","autorecord":false,"preurl":"","discard":false,"owner":"f45cb0fa-7991-41aa-8d38-735182900e9d","defaultgroup":false,"openUpdatedAt":null}}
+[2021-08-03 14:39:56] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 15:36:27] INFO [<module>: run_all.py, 6] 测试开始
+[2021-08-04 15:36:27] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 15:36:27] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 15:36:27] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_duplication
+[2021-08-04 15:36:27] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 15:36:27] INFO [log_case_info: case_log.py, 9] 请求参数：{
+            "idApiGroup": "",
+            "name": "a1234",
+            "description": "123",
+            "autoRecord": false,
+            "defaultGroup": false,
+            "preUrl": "",
+            "address": "[]",
+            "serviceRes": null,
+            "backendDetail": "{\"protocol\":\"\"}",
+            "implMethod": "restful",
+            "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+            "cover": false
+        }
+[2021-08-04 15:36:27] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 15:36:27] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 15:36:27] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 15:36:27] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 581
+[2021-08-04 15:36:27] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_ture
+[2021-08-04 15:36:27] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 15:36:27] INFO [log_case_info: case_log.py, 9] 请求参数：{
+                "idApiGroup": "",
+                "name": "python",
+                "description": "123",
+                "autoRecord": false,
+                "defaultGroup": false,
+                "preUrl": "",
+                "address": "[]",
+                "serviceRes": null,
+                "backendDetail": "{\"protocol\":\"\"}",
+                "implMethod": "restful",
+                "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+                "cover": false
+    }
+[2021-08-04 15:36:27] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"success","message":null,"data":{"operator":"f45cb0fa-7991-41aa-8d38-735182900e9d","tenantId":"d13e78ea-5d3d-4a5f-9eaf-6844ebfee0e5","code":null,"name":"python","description":"123","address":"[]","hystrixconfig":"{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}","implmethod":"restful","serviceres":null,"backenddetail":"{\"protocol\":\"\"}","autorecord":false,"preurl":"","discard":false,"owner":"f45cb0fa-7991-41aa-8d38-735182900e9d","defaultgroup":false,"openUpdatedAt":null}}
+[2021-08-04 15:36:27] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"success","message":null,"data":{"operator":"f45cb0fa-7991-41aa-8d38-735182900e9d","tenantId":"d13e78ea-5d3d-4a5f-9eaf-6844ebfee0e5","code":null,"name":"python","description":"123","address":"[]","hystrixconfig":"{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}","implmethod":"restful","serviceres":null,"backenddetail":"{\"protocol\":\"\"}","autorecord":false,"preurl":"","discard":false,"owner":"f45cb0fa-7991-41aa-8d38-735182900e9d","defaultgroup":false,"openUpdatedAt":null}}
+[2021-08-04 15:50:50] INFO [<module>: run_all.py, 6] ==================== 测试开始 =======================
+[2021-08-04 15:50:50] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 15:50:50] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 15:50:50] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_duplication
+[2021-08-04 15:50:50] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 15:50:50] INFO [log_case_info: case_log.py, 9] 请求参数：{
+            "idApiGroup": "",
+            "name": "a1234",
+            "description": "123",
+            "autoRecord": false,
+            "defaultGroup": false,
+            "preUrl": "",
+            "address": "[]",
+            "serviceRes": null,
+            "backendDetail": "{\"protocol\":\"\"}",
+            "implMethod": "restful",
+            "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+            "cover": false
+        }
+[2021-08-04 15:50:50] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 15:50:50] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 15:50:50] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 15:50:50] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 15:50:50] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_ture
+[2021-08-04 15:50:50] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 15:50:50] INFO [log_case_info: case_log.py, 9] 请求参数：{
+                "idApiGroup": "",
+                "name": "python",
+                "description": "123",
+                "autoRecord": false,
+                "defaultGroup": false,
+                "preUrl": "",
+                "address": "[]",
+                "serviceRes": null,
+                "backendDetail": "{\"protocol\":\"\"}",
+                "implMethod": "restful",
+                "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+                "cover": false
+    }
+[2021-08-04 15:50:50] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"success","message":null,"data":{"operator":"f45cb0fa-7991-41aa-8d38-735182900e9d","tenantId":"d13e78ea-5d3d-4a5f-9eaf-6844ebfee0e5","code":null,"name":"python","description":"123","address":"[]","hystrixconfig":"{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}","implmethod":"restful","serviceres":null,"backenddetail":"{\"protocol\":\"\"}","autorecord":false,"preurl":"","discard":false,"owner":"f45cb0fa-7991-41aa-8d38-735182900e9d","defaultgroup":false,"openUpdatedAt":null}}
+[2021-08-04 15:50:50] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 15:57:12] INFO [<module>: run_all.py, 6] ==================== 测试开始 =======================
+[2021-08-04 15:58:54] INFO [<module>: run_all.py, 6] ==================== 测试开始 =======================
+[2021-08-04 15:58:54] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 15:58:54] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 15:58:54] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_duplication
+[2021-08-04 15:58:54] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 15:58:54] INFO [log_case_info: case_log.py, 9] 请求参数：{
+            "idApiGroup": "",
+            "name": "a1234",
+            "description": "123",
+            "autoRecord": false,
+            "defaultGroup": false,
+            "preUrl": "",
+            "address": "[]",
+            "serviceRes": null,
+            "backendDetail": "{\"protocol\":\"\"}",
+            "implMethod": "restful",
+            "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+            "cover": false
+        }
+[2021-08-04 15:58:54] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 15:58:54] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 15:58:54] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 15:58:54] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 15:58:54] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_ture
+[2021-08-04 15:58:54] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 15:58:54] INFO [log_case_info: case_log.py, 9] 请求参数：{
+                "idApiGroup": "",
+                "name": "python",
+                "description": "123",
+                "autoRecord": false,
+                "defaultGroup": false,
+                "preUrl": "",
+                "address": "[]",
+                "serviceRes": null,
+                "backendDetail": "{\"protocol\":\"\"}",
+                "implMethod": "restful",
+                "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+                "cover": false
+    }
+[2021-08-04 15:58:54] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"success","message":null,"data":{"operator":"f45cb0fa-7991-41aa-8d38-735182900e9d","tenantId":"d13e78ea-5d3d-4a5f-9eaf-6844ebfee0e5","code":null,"name":"python","description":"123","address":"[]","hystrixconfig":"{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}","implmethod":"restful","serviceres":null,"backenddetail":"{\"protocol\":\"\"}","autorecord":false,"preurl":"","discard":false,"owner":"f45cb0fa-7991-41aa-8d38-735182900e9d","defaultgroup":false,"openUpdatedAt":null}}
+[2021-08-04 15:58:54] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:01:37] INFO [<module>: run_all.py, 6] ==================== 测试开始 =======================
+[2021-08-04 16:05:10] INFO [<module>: run_all.py, 6] ==================== 测试开始 =======================
+[2021-08-04 16:11:04] INFO [<module>: run_all.py, 6] ==================== 测试开始 =======================
+[2021-08-04 16:19:32] INFO [<module>: run_all.py, 6] ==================== 测试开始 =======================
+[2021-08-04 16:19:32] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 16:19:32] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 16:19:32] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_duplication
+[2021-08-04 16:19:32] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 16:19:32] INFO [log_case_info: case_log.py, 9] 请求参数：{
+            "idApiGroup": "",
+            "name": "a1234",
+            "description": "123",
+            "autoRecord": false,
+            "defaultGroup": false,
+            "preUrl": "",
+            "address": "[]",
+            "serviceRes": null,
+            "backendDetail": "{\"protocol\":\"\"}",
+            "implMethod": "restful",
+            "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+            "cover": false
+        }
+[2021-08-04 16:19:32] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:19:32] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:19:32] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 16:19:32] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 16:19:32] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_ture
+[2021-08-04 16:19:32] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 16:19:32] INFO [log_case_info: case_log.py, 9] 请求参数：{
+                "idApiGroup": "",
+                "name": "python",
+                "description": "123",
+                "autoRecord": false,
+                "defaultGroup": false,
+                "preUrl": "",
+                "address": "[]",
+                "serviceRes": null,
+                "backendDetail": "{\"protocol\":\"\"}",
+                "implMethod": "restful",
+                "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+                "cover": false
+    }
+[2021-08-04 16:19:32] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"success","message":null,"data":{"operator":"f45cb0fa-7991-41aa-8d38-735182900e9d","tenantId":"d13e78ea-5d3d-4a5f-9eaf-6844ebfee0e5","code":null,"name":"python","description":"123","address":"[]","hystrixconfig":"{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}","implmethod":"restful","serviceres":null,"backenddetail":"{\"protocol\":\"\"}","autorecord":false,"preurl":"","discard":false,"owner":"f45cb0fa-7991-41aa-8d38-735182900e9d","defaultgroup":false,"openUpdatedAt":null}}
+[2021-08-04 16:19:32] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:19:34] INFO [send_email: send_email.py, 30] 邮件发送成功
+[2021-08-04 16:19:34] INFO [<module>: run_all.py, 14] ==================== 测试结束 =======================
+[2021-08-04 16:35:18] INFO [<module>: run_all.py, 6] ==================== 测试开始 =======================
+[2021-08-04 16:35:19] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 16:35:19] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 16:35:19] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_duplication
+[2021-08-04 16:35:19] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 16:35:19] INFO [log_case_info: case_log.py, 9] 请求参数：{
+            "idApiGroup": "",
+            "name": "a1234",
+            "description": "123",
+            "autoRecord": false,
+            "defaultGroup": false,
+            "preUrl": "",
+            "address": "[]",
+            "serviceRes": null,
+            "backendDetail": "{\"protocol\":\"\"}",
+            "implMethod": "restful",
+            "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+            "cover": false
+        }
+[2021-08-04 16:35:19] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:35:19] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:35:19] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 16:35:19] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 16:35:19] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_ture
+[2021-08-04 16:35:19] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 16:35:19] INFO [log_case_info: case_log.py, 9] 请求参数：{
+                "idApiGroup": "",
+                "name": "python",
+                "description": "123",
+                "autoRecord": false,
+                "defaultGroup": false,
+                "preUrl": "",
+                "address": "[]",
+                "serviceRes": null,
+                "backendDetail": "{\"protocol\":\"\"}",
+                "implMethod": "restful",
+                "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+                "cover": false
+    }
+[2021-08-04 16:35:19] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"success","message":null,"data":{"operator":"f45cb0fa-7991-41aa-8d38-735182900e9d","tenantId":"d13e78ea-5d3d-4a5f-9eaf-6844ebfee0e5","code":null,"name":"python","description":"123","address":"[]","hystrixconfig":"{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}","implmethod":"restful","serviceres":null,"backenddetail":"{\"protocol\":\"\"}","autorecord":false,"preurl":"","discard":false,"owner":"f45cb0fa-7991-41aa-8d38-735182900e9d","defaultgroup":false,"openUpdatedAt":null}}
+[2021-08-04 16:35:19] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:35:20] INFO [send_email: send_email.py, 30] 邮件发送成功
+[2021-08-04 16:35:20] INFO [<module>: run_all.py, 14] ==================== 测试结束 =======================
+[2021-08-04 16:37:00] INFO [<module>: run_all.py, 6] ==================== 测试开始 =======================
+[2021-08-04 16:37:01] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 16:37:01] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 16:37:01] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_duplication
+[2021-08-04 16:37:01] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 16:37:01] INFO [log_case_info: case_log.py, 9] 请求参数：{
+            "idApiGroup": "",
+            "name": "a1234",
+            "description": "123",
+            "autoRecord": false,
+            "defaultGroup": false,
+            "preUrl": "",
+            "address": "[]",
+            "serviceRes": null,
+            "backendDetail": "{\"protocol\":\"\"}",
+            "implMethod": "restful",
+            "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+            "cover": false
+        }
+[2021-08-04 16:37:01] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:37:01] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:37:01] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 16:37:01] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 16:37:01] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_ture
+[2021-08-04 16:37:01] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 16:37:01] INFO [log_case_info: case_log.py, 9] 请求参数：{
+                "idApiGroup": "",
+                "name": "python",
+                "description": "123",
+                "autoRecord": false,
+                "defaultGroup": false,
+                "preUrl": "",
+                "address": "[]",
+                "serviceRes": null,
+                "backendDetail": "{\"protocol\":\"\"}",
+                "implMethod": "restful",
+                "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+                "cover": false
+    }
+[2021-08-04 16:37:01] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"success","message":null,"data":{"operator":"f45cb0fa-7991-41aa-8d38-735182900e9d","tenantId":"d13e78ea-5d3d-4a5f-9eaf-6844ebfee0e5","code":null,"name":"python","description":"123","address":"[]","hystrixconfig":"{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}","implmethod":"restful","serviceres":null,"backenddetail":"{\"protocol\":\"\"}","autorecord":false,"preurl":"","discard":false,"owner":"f45cb0fa-7991-41aa-8d38-735182900e9d","defaultgroup":false,"openUpdatedAt":null}}
+[2021-08-04 16:37:01] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:37:02] INFO [send_email: send_email.py, 30] 邮件发送成功
+[2021-08-04 16:37:02] INFO [<module>: run_all.py, 14] ==================== 测试结束 =======================
+[2021-08-04 16:39:31] INFO [<module>: run_all.py, 6] ==================== 测试开始 =======================
+[2021-08-04 16:39:31] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 16:39:31] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 16:39:31] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_duplication
+[2021-08-04 16:39:31] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 16:39:31] INFO [log_case_info: case_log.py, 9] 请求参数：{
+            "idApiGroup": "",
+            "name": "a1234",
+            "description": "123",
+            "autoRecord": false,
+            "defaultGroup": false,
+            "preUrl": "",
+            "address": "[]",
+            "serviceRes": null,
+            "backendDetail": "{\"protocol\":\"\"}",
+            "implMethod": "restful",
+            "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+            "cover": false
+        }
+[2021-08-04 16:39:31] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:39:31] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:39:31] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 16:39:31] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 581
+[2021-08-04 16:39:31] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_ture
+[2021-08-04 16:39:31] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 16:39:31] INFO [log_case_info: case_log.py, 9] 请求参数：{
+                "idApiGroup": "",
+                "name": "python",
+                "description": "123",
+                "autoRecord": false,
+                "defaultGroup": false,
+                "preUrl": "",
+                "address": "[]",
+                "serviceRes": null,
+                "backendDetail": "{\"protocol\":\"\"}",
+                "implMethod": "restful",
+                "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+                "cover": false
+    }
+[2021-08-04 16:39:31] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"success","message":null,"data":{"operator":"f45cb0fa-7991-41aa-8d38-735182900e9d","tenantId":"d13e78ea-5d3d-4a5f-9eaf-6844ebfee0e5","code":null,"name":"python","description":"123","address":"[]","hystrixconfig":"{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}","implmethod":"restful","serviceres":null,"backenddetail":"{\"protocol\":\"\"}","autorecord":false,"preurl":"","discard":false,"owner":"f45cb0fa-7991-41aa-8d38-735182900e9d","defaultgroup":false,"openUpdatedAt":null}}
+[2021-08-04 16:39:31] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"success","message":null,"data":{"operator":"f45cb0fa-7991-41aa-8d38-735182900e9d","tenantId":"d13e78ea-5d3d-4a5f-9eaf-6844ebfee0e5","code":null,"name":"python","description":"123","address":"[]","hystrixconfig":"{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}","implmethod":"restful","serviceres":null,"backenddetail":"{\"protocol\":\"\"}","autorecord":false,"preurl":"","discard":false,"owner":"f45cb0fa-7991-41aa-8d38-735182900e9d","defaultgroup":false,"openUpdatedAt":null}}
+[2021-08-04 16:39:33] INFO [send_email: send_email.py, 30] 邮件发送成功
+[2021-08-04 16:39:33] INFO [<module>: run_all.py, 14] ==================== 测试结束 =======================
+[2021-08-04 16:43:27] INFO [<module>: run_all.py, 6] ==================== 测试开始 =======================
+[2021-08-04 16:43:27] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 16:43:27] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 16:43:27] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_duplication
+[2021-08-04 16:43:27] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 16:43:27] INFO [log_case_info: case_log.py, 9] 请求参数：{
+            "idApiGroup": "",
+            "name": "a1234",
+            "description": "123",
+            "autoRecord": false,
+            "defaultGroup": false,
+            "preUrl": "",
+            "address": "[]",
+            "serviceRes": null,
+            "backendDetail": "{\"protocol\":\"\"}",
+            "implMethod": "restful",
+            "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+            "cover": false
+        }
+[2021-08-04 16:43:27] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:43:27] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:43:27] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 16:43:27] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 16:43:27] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_ture
+[2021-08-04 16:43:27] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 16:43:27] INFO [log_case_info: case_log.py, 9] 请求参数：{
+                "idApiGroup": "",
+                "name": "python",
+                "description": "123",
+                "autoRecord": false,
+                "defaultGroup": false,
+                "preUrl": "",
+                "address": "[]",
+                "serviceRes": null,
+                "backendDetail": "{\"protocol\":\"\"}",
+                "implMethod": "restful",
+                "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+                "cover": false
+    }
+[2021-08-04 16:43:27] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"success","message":null,"data":{"operator":"f45cb0fa-7991-41aa-8d38-735182900e9d","tenantId":"d13e78ea-5d3d-4a5f-9eaf-6844ebfee0e5","code":null,"name":"python","description":"123","address":"[]","hystrixconfig":"{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}","implmethod":"restful","serviceres":null,"backenddetail":"{\"protocol\":\"\"}","autorecord":false,"preurl":"","discard":false,"owner":"f45cb0fa-7991-41aa-8d38-735182900e9d","defaultgroup":false,"openUpdatedAt":null}}
+[2021-08-04 16:43:27] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:43:46] INFO [<module>: run_all.py, 6] ==================== 测试开始 =======================
+[2021-08-04 16:43:46] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 16:43:46] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 16:43:46] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_duplication
+[2021-08-04 16:43:46] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 16:43:46] INFO [log_case_info: case_log.py, 9] 请求参数：{
+            "idApiGroup": "",
+            "name": "a1234",
+            "description": "123",
+            "autoRecord": false,
+            "defaultGroup": false,
+            "preUrl": "",
+            "address": "[]",
+            "serviceRes": null,
+            "backendDetail": "{\"protocol\":\"\"}",
+            "implMethod": "restful",
+            "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+            "cover": false
+        }
+[2021-08-04 16:43:46] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:43:46] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:43:46] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 16:43:46] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 16:43:46] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_ture
+[2021-08-04 16:43:46] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 16:43:46] INFO [log_case_info: case_log.py, 9] 请求参数：{
+                "idApiGroup": "",
+                "name": "python",
+                "description": "123",
+                "autoRecord": false,
+                "defaultGroup": false,
+                "preUrl": "",
+                "address": "[]",
+                "serviceRes": null,
+                "backendDetail": "{\"protocol\":\"\"}",
+                "implMethod": "restful",
+                "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+                "cover": false
+    }
+[2021-08-04 16:43:46] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"success","message":null,"data":{"operator":"f45cb0fa-7991-41aa-8d38-735182900e9d","tenantId":"d13e78ea-5d3d-4a5f-9eaf-6844ebfee0e5","code":null,"name":"python","description":"123","address":"[]","hystrixconfig":"{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}","implmethod":"restful","serviceres":null,"backenddetail":"{\"protocol\":\"\"}","autorecord":false,"preurl":"","discard":false,"owner":"f45cb0fa-7991-41aa-8d38-735182900e9d","defaultgroup":false,"openUpdatedAt":null}}
+[2021-08-04 16:43:46] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:43:48] INFO [send_email: send_email.py, 30] 邮件发送成功
+[2021-08-04 16:43:48] INFO [<module>: run_all.py, 14] ==================== 测试结束 =======================
+[2021-08-04 16:44:28] INFO [<module>: run_all.py, 6] ==================== 测试开始 =======================
+[2021-08-04 16:44:28] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 16:44:28] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 16:44:28] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_duplication
+[2021-08-04 16:44:28] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 16:44:28] INFO [log_case_info: case_log.py, 9] 请求参数：{
+            "idApiGroup": "",
+            "name": "a1234",
+            "description": "123",
+            "autoRecord": false,
+            "defaultGroup": false,
+            "preUrl": "",
+            "address": "[]",
+            "serviceRes": null,
+            "backendDetail": "{\"protocol\":\"\"}",
+            "implMethod": "restful",
+            "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+            "cover": false
+        }
+[2021-08-04 16:44:28] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:44:28] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:44:28] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 16:44:29] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 16:44:29] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_ture
+[2021-08-04 16:44:29] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 16:44:29] INFO [log_case_info: case_log.py, 9] 请求参数：{
+                "idApiGroup": "",
+                "name": "python",
+                "description": "123",
+                "autoRecord": false,
+                "defaultGroup": false,
+                "preUrl": "",
+                "address": "[]",
+                "serviceRes": null,
+                "backendDetail": "{\"protocol\":\"\"}",
+                "implMethod": "restful",
+                "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+                "cover": false
+    }
+[2021-08-04 16:44:29] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"success","message":null,"data":{"operator":"f45cb0fa-7991-41aa-8d38-735182900e9d","tenantId":"d13e78ea-5d3d-4a5f-9eaf-6844ebfee0e5","code":null,"name":"python","description":"123","address":"[]","hystrixconfig":"{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}","implmethod":"restful","serviceres":null,"backenddetail":"{\"protocol\":\"\"}","autorecord":false,"preurl":"","discard":false,"owner":"f45cb0fa-7991-41aa-8d38-735182900e9d","defaultgroup":false,"openUpdatedAt":null}}
+[2021-08-04 16:44:29] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:44:30] INFO [send_email: send_email.py, 30] 邮件发送成功
+[2021-08-04 16:44:30] INFO [<module>: run_all.py, 14] ==================== 测试结束 =======================
+[2021-08-04 16:45:22] INFO [<module>: run_all.py, 6] ==================== 测试开始 =======================
+[2021-08-04 16:45:22] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 16:45:22] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 16:45:22] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_duplication
+[2021-08-04 16:45:22] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 16:45:22] INFO [log_case_info: case_log.py, 9] 请求参数：{
+            "idApiGroup": "",
+            "name": "a1234",
+            "description": "123",
+            "autoRecord": false,
+            "defaultGroup": false,
+            "preUrl": "",
+            "address": "[]",
+            "serviceRes": null,
+            "backendDetail": "{\"protocol\":\"\"}",
+            "implMethod": "restful",
+            "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+            "cover": false
+        }
+[2021-08-04 16:45:22] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:45:22] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:45:22] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 16:45:22] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 16:45:22] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_ture
+[2021-08-04 16:45:22] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 16:45:22] INFO [log_case_info: case_log.py, 9] 请求参数：{
+                "idApiGroup": "",
+                "name": "python",
+                "description": "123",
+                "autoRecord": false,
+                "defaultGroup": false,
+                "preUrl": "",
+                "address": "[]",
+                "serviceRes": null,
+                "backendDetail": "{\"protocol\":\"\"}",
+                "implMethod": "restful",
+                "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+                "cover": false
+    }
+[2021-08-04 16:45:22] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"success","message":null,"data":{"operator":"f45cb0fa-7991-41aa-8d38-735182900e9d","tenantId":"d13e78ea-5d3d-4a5f-9eaf-6844ebfee0e5","code":null,"name":"python","description":"123","address":"[]","hystrixconfig":"{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}","implmethod":"restful","serviceres":null,"backenddetail":"{\"protocol\":\"\"}","autorecord":false,"preurl":"","discard":false,"owner":"f45cb0fa-7991-41aa-8d38-735182900e9d","defaultgroup":false,"openUpdatedAt":null}}
+[2021-08-04 16:45:22] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:45:23] INFO [send_email: send_email.py, 30] 邮件发送成功
+[2021-08-04 16:45:23] INFO [<module>: run_all.py, 14] ==================== 测试结束 =======================
+[2021-08-04 16:54:13] INFO [<module>: run_all.py, 6] ==================== 测试开始 =======================
+[2021-08-04 16:54:14] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 16:54:14] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 16:54:14] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_duplication
+[2021-08-04 16:54:14] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 16:54:14] INFO [log_case_info: case_log.py, 9] 请求参数：{
+            "idApiGroup": "",
+            "name": "a1234",
+            "description": "123",
+            "autoRecord": false,
+            "defaultGroup": false,
+            "preUrl": "",
+            "address": "[]",
+            "serviceRes": null,
+            "backendDetail": "{\"protocol\":\"\"}",
+            "implMethod": "restful",
+            "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+            "cover": false
+        }
+[2021-08-04 16:54:14] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:54:14] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:54:14] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 16:54:14] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 16:54:14] INFO [log_case_info: case_log.py, 7] 测试用例：test_create_Group_ture
+[2021-08-04 16:54:14] INFO [log_case_info: case_log.py, 8] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 16:54:14] INFO [log_case_info: case_log.py, 9] 请求参数：{
+                "idApiGroup": "",
+                "name": "python",
+                "description": "123",
+                "autoRecord": false,
+                "defaultGroup": false,
+                "preUrl": "",
+                "address": "[]",
+                "serviceRes": null,
+                "backendDetail": "{\"protocol\":\"\"}",
+                "implMethod": "restful",
+                "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+                "cover": false
+    }
+[2021-08-04 16:54:14] INFO [log_case_info: case_log.py, 10] 期望结果：{"status":"success","message":null,"data":{"operator":"f45cb0fa-7991-41aa-8d38-735182900e9d","tenantId":"d13e78ea-5d3d-4a5f-9eaf-6844ebfee0e5","code":null,"name":"python","description":"123","address":"[]","hystrixconfig":"{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}","implmethod":"restful","serviceres":null,"backenddetail":"{\"protocol\":\"\"}","autorecord":false,"preurl":"","discard":false,"owner":"f45cb0fa-7991-41aa-8d38-735182900e9d","defaultgroup":false,"openUpdatedAt":null}}
+[2021-08-04 16:54:14] INFO [log_case_info: case_log.py, 11] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 16:54:15] INFO [send_email: send_email.py, 30] 邮件发送成功
+[2021-08-04 16:54:15] INFO [<module>: run_all.py, 14] ==================== 测试结束 =======================
+[2021-08-04 18:46:10] INFO [<module>: run_all.py, 6] ==================== 测试开始 =======================
+[2021-08-04 18:46:10] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 18:46:10] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 18:46:10] INFO [log_case_info: case_log.py, 9] 测试用例：test_create_Group_duplication
+[2021-08-04 18:46:10] INFO [log_case_info: case_log.py, 10] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 18:46:10] INFO [log_case_info: case_log.py, 11] 请求参数：{
+            "idApiGroup": "",
+            "name": "a1234",
+            "description": "123",
+            "autoRecord": false,
+            "defaultGroup": false,
+            "preUrl": "",
+            "address": "[]",
+            "serviceRes": null,
+            "backendDetail": "{\"protocol\":\"\"}",
+            "implMethod": "restful",
+            "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+            "cover": false
+        }
+[2021-08-04 18:46:10] INFO [log_case_info: case_log.py, 12] 期望结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 18:46:10] INFO [log_case_info: case_log.py, 13] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 18:46:10] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-04 18:46:10] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-04 18:46:10] INFO [log_case_info: case_log.py, 9] 测试用例：test_create_Group_ture
+[2021-08-04 18:46:10] INFO [log_case_info: case_log.py, 10] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-04 18:46:10] INFO [log_case_info: case_log.py, 11] 请求参数：{
+                "idApiGroup": "",
+                "name": "python",
+                "description": "123",
+                "autoRecord": false,
+                "defaultGroup": false,
+                "preUrl": "",
+                "address": "[]",
+                "serviceRes": null,
+                "backendDetail": "{\"protocol\":\"\"}",
+                "implMethod": "restful",
+                "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+                "cover": false
+    }
+[2021-08-04 18:46:10] INFO [log_case_info: case_log.py, 12] 期望结果：{"status":"success","message":null,"data":{"operator":"f45cb0fa-7991-41aa-8d38-735182900e9d","tenantId":"d13e78ea-5d3d-4a5f-9eaf-6844ebfee0e5","code":null,"name":"python","description":"123","address":"[]","hystrixconfig":"{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}","implmethod":"restful","serviceres":null,"backenddetail":"{\"protocol\":\"\"}","autorecord":false,"preurl":"","discard":false,"owner":"f45cb0fa-7991-41aa-8d38-735182900e9d","defaultgroup":false,"openUpdatedAt":null}}
+[2021-08-04 18:46:10] INFO [log_case_info: case_log.py, 13] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-04 18:46:12] INFO [send_email: send_email.py, 32] 邮件发送成功
+[2021-08-04 18:46:12] INFO [<module>: run_all.py, 14] ==================== 测试结束 =======================
+[2021-08-10 16:55:15] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-10 16:55:15] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 62
+[2021-08-10 16:55:15] INFO [log_case_info: case_log.py, 9] 测试用例：test_create_Group_duplication
+[2021-08-10 16:55:15] INFO [log_case_info: case_log.py, 10] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-10 16:55:15] INFO [log_case_info: case_log.py, 11] 请求参数：{
+            "idApiGroup": "",
+            "name": "a1234",
+            "description": "123",
+            "autoRecord": false,
+            "defaultGroup": false,
+            "preUrl": "",
+            "address": "[]",
+            "serviceRes": null,
+            "backendDetail": "{\"protocol\":\"\"}",
+            "implMethod": "restful",
+            "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+            "cover": false
+        }
+[2021-08-10 16:55:15] INFO [log_case_info: case_log.py, 12] 期望结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-10 16:55:15] INFO [log_case_info: case_log.py, 13] 实际结果：{"message":"登陆失效，请重新登陆","status":"logout"}
+[2021-08-10 16:55:15] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-10 16:55:15] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 62
+[2021-08-10 16:55:15] INFO [log_case_info: case_log.py, 9] 测试用例：test_create_Group_ture
+[2021-08-10 16:55:15] INFO [log_case_info: case_log.py, 10] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-10 16:55:15] INFO [log_case_info: case_log.py, 11] 请求参数：{
+                "idApiGroup": "",
+                "name": "python",
+                "description": "123",
+                "autoRecord": false,
+                "defaultGroup": false,
+                "preUrl": "",
+                "address": "[]",
+                "serviceRes": null,
+                "backendDetail": "{\"protocol\":\"\"}",
+                "implMethod": "restful",
+                "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+                "cover": false
+    }
+[2021-08-10 16:55:15] INFO [log_case_info: case_log.py, 12] 期望结果：{"status":"success","message":null,"data":{"operator":"f45cb0fa-7991-41aa-8d38-735182900e9d","tenantId":"d13e78ea-5d3d-4a5f-9eaf-6844ebfee0e5","code":null,"name":"python","description":"123","address":"[]","hystrixconfig":"{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}","implmethod":"restful","serviceres":null,"backenddetail":"{\"protocol\":\"\"}","autorecord":false,"preurl":"","discard":false,"owner":"f45cb0fa-7991-41aa-8d38-735182900e9d","defaultgroup":false,"openUpdatedAt":null}}
+[2021-08-10 16:55:15] INFO [log_case_info: case_log.py, 13] 实际结果：{"message":"登陆失效，请重新登陆","status":"logout"}
+[2021-08-10 16:55:15] ERROR [test_delete_Group: test_create_group.py, 44] 用例数据不存在
+[2021-08-10 16:56:50] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-10 16:56:50] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-10 16:56:50] INFO [log_case_info: case_log.py, 9] 测试用例：test_create_Group_duplication
+[2021-08-10 16:56:50] INFO [log_case_info: case_log.py, 10] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-10 16:56:50] INFO [log_case_info: case_log.py, 11] 请求参数：{
+            "idApiGroup": "",
+            "name": "a1234",
+            "description": "123",
+            "autoRecord": false,
+            "defaultGroup": false,
+            "preUrl": "",
+            "address": "[]",
+            "serviceRes": null,
+            "backendDetail": "{\"protocol\":\"\"}",
+            "implMethod": "restful",
+            "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+            "cover": false
+        }
+[2021-08-10 16:56:50] INFO [log_case_info: case_log.py, 12] 期望结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-10 16:56:50] INFO [log_case_info: case_log.py, 13] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-10 16:56:50] DEBUG [_new_conn: connectionpool.py, 226] Starting new HTTP connection (1): 10.31.11.21:31201
+[2021-08-10 16:56:50] DEBUG [_make_request: connectionpool.py, 433] http://10.31.11.21:31201 "POST /admin/api/group/editor HTTP/1.1" 200 52
+[2021-08-10 16:56:50] INFO [log_case_info: case_log.py, 9] 测试用例：test_create_Group_ture
+[2021-08-10 16:56:50] INFO [log_case_info: case_log.py, 10] url：http://10.31.11.21:31201/admin/api/group/editor
+[2021-08-10 16:56:50] INFO [log_case_info: case_log.py, 11] 请求参数：{
+                "idApiGroup": "",
+                "name": "python",
+                "description": "123",
+                "autoRecord": false,
+                "defaultGroup": false,
+                "preUrl": "",
+                "address": "[]",
+                "serviceRes": null,
+                "backendDetail": "{\"protocol\":\"\"}",
+                "implMethod": "restful",
+                "hystrixConfig": "{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}",
+                "cover": false
+    }
+[2021-08-10 16:56:50] INFO [log_case_info: case_log.py, 12] 期望结果：{"status":"success","message":null,"data":{"operator":"f45cb0fa-7991-41aa-8d38-735182900e9d","tenantId":"d13e78ea-5d3d-4a5f-9eaf-6844ebfee0e5","code":null,"name":"python","description":"123","address":"[]","hystrixconfig":"{\"circuitBreakerSleepWindowInMilliseconds\":5000,\"circuitBreakerErrorThresholdPercentage\":50,\"circuitBreakerRequestVolumeThreshold\":20}","implmethod":"restful","serviceres":null,"backenddetail":"{\"protocol\":\"\"}","autorecord":false,"preurl":"","discard":false,"owner":"f45cb0fa-7991-41aa-8d38-735182900e9d","defaultgroup":false,"openUpdatedAt":null}}
+[2021-08-10 16:56:50] INFO [log_case_info: case_log.py, 13] 实际结果：{"status":"error","message":"服务器内部错误"}
+[2021-08-10 16:56:50] ERROR [test_delete_Group: test_create_group.py, 44] 用例数据不存在
